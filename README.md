@@ -9,7 +9,7 @@ Contains multiple levels with increasing difficulty.
 Coded using a single thread
 Does not use built-in Java GUI, instead, it uses a custom GUI implementation which is included in the repository.
 
-Installation
+_**Installation**_
 Clone the repository: git clone https://github.com/RoeiMesi/Arkanoid.git
 Open the project from an IDE such as IntelliJ or Visual Studio.
 Add the biu-oop.jar file as a global library to the Arkanoid project.
