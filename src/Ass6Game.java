@@ -2,7 +2,6 @@
  * @author Roei Mesilaty
  * @version 6.0 (current version number of program)
  * @since 2023-06-09
- * @StuID 315253336
  */
 import Animations.AnimationRunner;
 import Levels.DirectHit;
