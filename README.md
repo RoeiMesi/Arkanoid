@@ -1,35 +1,47 @@
 # Arkanoid
-This is a Java implementation of the classic game Arkanoid, developed as part of an OOP course at Bar-Ilan university.
+
+This is a Java-based implementation of the classic game Arkanoid, developed as part of an Object-Oriented Programming (OOP) course at Bar-Ilan University.
 
 _**Features**_
 
-Java implementation using the following OOP principles: polymorphism and inheritance, basic design patterns and generic collections.
-GUI interface
-Contains multiple levels with increasing difficulty.
-Coded using a single thread
-Does not use built-in Java GUI, instead, it uses a custom GUI implementation which is included in the repository.
-
+- Implemented using core OOP principles such as polymorphism, inheritance, and design patterns.
+- Utilizes generic collections and follows solid software design principles.
+- Custom GUI implementation—no reliance on Java's built-in GUI components.
+- Multiple levels with increasing difficulty.
+- Some blocks are darker, indicating a special block that spawns an extra ball when broken.
+- Single-threaded game engine.
+  
 _**Installation**_
 
-Clone the repository: git clone https://github.com/RoeiMesi/Arkanoid.git
-Open the project from an IDE such as IntelliJ or Visual Studio.
-Add the biu-oop.jar file as a global library to the Arkanoid project.
-Make sure an updated JDK is set in the configuration for the menu to run on, and click play!
+To run the game locally, follow these steps:
 
-_**Playing the game**_
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RoeiMesi/Arkanoid.git
+2. Open the project in an IDE such as IntelliJ IDEA or Visual Studio.
+3. Add the biu-oop.jar file as a global library within your IDE's project settings.
+4. Ensure that your project is configured with JDK 10 or higher.
+5. Run the project by selecting the main menu and clicking "Play."
 
-Use the 'Left' and 'Right' arrows to control the paddle.
-Press 'p' to pause the game.
-Press 'Space' to re-enter the game.
-Remove all blocks in each level by striking them with the ball.
-Every block that you remove grants you 5 points, every level that you pass grants you 100 points. Try to get the highest score!
-Note: The game has only 1 life, so use it carefully!
+_**Playing the Game**_
+
+- Use the 'Left' and 'Right' arrow keys to move the paddle.
+- Press 'P' to pause the game.
+- Press 'Space' to resume play.
+- Break all blocks by hitting them with the ball to advance to the next level.
+- Darker blocks are special; breaking one will spawn an extra ball.
+- Score points for each block you break (5 points per block) and for completing levels (100 points per level). Try to achieve the highest score!
+- **Note**: You only have one life per game, so be cautious!
 
 _**Requirements**_
 
-Java SE 10 or higher installed on your machine.
+- Java SE 10 or higher installed on your machine.
 
-Levels:
+_**Game Screenshots**_
+
+Here are some screenshots of the various levels and game states:
+
+_Levels:_
 
 ![image](https://github.com/RoeiMesi/Arkanoid/assets/23407020/33e21a77-a215-439f-9909-e18e55ad8b12)
 ![image](https://github.com/RoeiMesi/Arkanoid/assets/23407020/17e3abbf-df06-4931-a9c4-4be07e54f1d6)
